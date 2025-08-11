@@ -24,3 +24,17 @@ Run `service ssh restart` if necessary.
 On local machine, run `ssh-copy-id -p 2222 <username>@<remote_host>` 
 
 To enable SSH agent forwarding, make sure that `ForwardAgent yes` is added in `~/.ssh/config`
+
+
+## Clone dotfiles repo
+
+```
+> su -
+> apt-get install sudo
+> exit
+> sudo apt-get install git
+> mkdir ~/.dotfiles/ 
+> cd ~/.dotfiles
+> git clone git@github.com:geoffrey-eisenbarth/dotfiles.git .
+> ./setup.sh 
+```
