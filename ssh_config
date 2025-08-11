@@ -2,23 +2,28 @@ Host perryman-prod
   User server
   Port 22
   HostName perrymangroup.com
+  ForwardAgent yes
 
 Host perryman-stage
   User server
   Port 2222
   HostName perrymangroup.com
+  ForwardAgent yes
 
 Host ironbeard
   User geoffrey
   Port 22
   HostName ironbeard.org
+  ForwardAgent yes
 
 Host rpi
   User pi
   Port 22
   HostName 192.168.86.101
+  ForwardAgent yes
 
 Host digitalocean
   User root
   Port 22
   HostName 64.227.7.43
+  ForwardAgent yes
