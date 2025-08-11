@@ -42,7 +42,7 @@
   line-numbers = true
 
 [remote]
-	pushdefault = fork
+	pushdefault = origin
 
 [push]
 	default = current
