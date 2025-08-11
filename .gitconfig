@@ -1,0 +1,48 @@
+# Triangle workflow
+# -----------------
+#
+# 1) Clone the newly forked branch
+# $ git clone -o fork git@github.com:geoffrey-eisenbarth/<project>.git
+#
+# 2) Add remote 'upstream' to point to the official repository
+# $ cd <project>
+# $ git remote add upstream git@github.com:<organization>/<project>.git
+# $ git fetch upstream
+#
+# 3) Create a new branch that tracks the upstream
+# $ git checkout -b <development> upstream/<branch>
+#
+# 4) Develop on the branch, commit and add
+# $ git add .
+# $ git commit -m '<message>'
+#
+# 5) Push to your fork. Then you can create a PR on github.com.
+# $ git push
+#
+# 6a) Merge changes from upstream/<branch>
+# $ git pull
+#
+# 6b) Rebase this branch onto the latest upstream/<branch> commit
+# $ git pull --rebase
+
+
+[user]
+	email = geoffrey.eisenbarth@gmail.com
+	name = Geoffrey Eisenbarth
+  username = ironbeard
+
+[core]
+  editor = vim
+
+[diff]
+  tool = vimdiff
+
+[delta]
+  features = line-numbers decorations
+  line-numbers = true
+
+[remote]
+	pushdefault = fork
+
+[push]
+	default = current

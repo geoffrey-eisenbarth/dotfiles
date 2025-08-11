@@ -1,0 +1,5 @@
+# This must be copied into project directoy
+# There is no 'global' .flake8 config (apparently?)
+
+[flake8]
+ignore = E111,E114,E121,W0311,E501,E262,E265,E131,E261

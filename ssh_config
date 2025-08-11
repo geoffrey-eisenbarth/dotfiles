@@ -1,0 +1,24 @@
+Host perryman-prod
+  User server
+  Port 22
+  HostName perrymangroup.com
+
+Host perryman-stage
+  User server
+  Port 2222
+  HostName perrymangroup.com
+
+Host ironbeard
+  User geoffrey
+  Port 22
+  HostName ironbeard.org
+
+Host rpi
+  User pi
+  Port 22
+  HostName 192.168.86.101
+
+Host digitalocean
+  User root
+  Port 22
+  HostName 64.227.7.43
