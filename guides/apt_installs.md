@@ -1,19 +1,27 @@
+## Baseline debian packages
+
+```
 sudo apt-get install build-essential gcc
 sudo apt-get install ssh curl vim git keychain screenfetch tmux tree man htop unzip
+```
 
-# db
+**Database**
+```
 sudo apt-get install postgresql postgresql-contrib libpq-dev redis
+```
 
-# python
+**Python**
+```
 sudo apt-get install pipx python3-dev python3-flake8
 pipx install poetry
+```
 
-# perryman systems
+**Perryman Systems**
+```
 sudo apt-get install x13as
+```
 
-# perryman website
+**Perryman Website**
+```
 sudo apt-get install graphicsmagick
-
-# open source contrib
-sudo apt-get install npm
-curl -fsSL https://deno.land/install.sh | sh
+```
