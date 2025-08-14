@@ -10,6 +10,11 @@ Host perryman-stage
   HostName perrymangroup.com
   ForwardAgent yes
 
+Host perryman-files
+  User website
+  Port 22
+  HostName 192.168.1.25
+
 Host ironbeard
   User geoffrey
   Port 22

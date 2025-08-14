@@ -2,7 +2,9 @@
 
 ```
 sudo apt-get install build-essential gcc
-sudo apt-get install ssh curl vim git keychain screenfetch tmux tree man htop unzip
+sudo apt-get install vim git htop tmux
+
+sudo apt-get install ssh curl keychain screenfetch tree man unzip
 ```
 
 **Database**
